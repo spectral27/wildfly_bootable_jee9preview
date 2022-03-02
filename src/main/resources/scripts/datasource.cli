@@ -1,0 +1,7 @@
+data-source add \
+--name=mysqldatasource \
+--jndi-name=java:jboss/datasources/mysqlDS \
+--driver-name=mysql \
+--connection-url=jdbc:mysql://localhost:3306/database1?serverTimezone=UTC \
+--user-name=root \
+--password=root
